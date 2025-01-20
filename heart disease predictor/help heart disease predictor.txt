@@ -1,0 +1,19 @@
+open --> ML - Project deploy 
+
+select app.py --> open 
+
+Run in PyCharm 
+
+that will redirect on the web page for heart disease prediction 
+
+where you are give to some disease details.
+
+
+
+then my  program give you good Prediction on heart Disease.
+
+
+
+
+
+Thank you !

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Predictor</title>
+     <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2 class="title">Heart Disease Predictor</h2>
+
+    <form class ="form-container" action="submit" method="post">
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="sex">Sex:</label><br>
+        <select id="sex" name="sex" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+
+        <label for="cp">Chest Pain Type (cp):</label><br>
+        <input type="number" id="cp" name="cp" required><br><br>
+
+        <label for="restbps">Resting Blood Pressure (restbps):</label><br>
+        <input type="number" id="restbps" name="restbps" required><br><br>
+
+        <label for="chol">Serum Cholesterol (chol):</label><br>
+        <input type="number" id="chol" name="chol" required><br><br>
+
+        <label for="fbs">Fasting Blood Sugar (fbs):</label><br>
+        <input type="number" id="fbs" name="fbs" required><br><br>
+
+        <label for="restecg">Resting Electrocardiographic Results (restecg):</label><br>
+        <input type="number" id="restecg" name="restecg" required><br><br>
+
+        <label for="thalach">Maximum Heart Rate Achieved (thalach):</label><br>
+        <input type="number" id="thalach" name="thalach" required><br><br>
+
+        <label for="exang">Exercise Induced Angina (exang):</label><br>
+        <input type="number" id="exang" name="exang" required><br><br>
+
+        <label for="oldpeak">ST Depression Induced by Exercise Relative to Rest (oldpeak):</label><br>
+        <input type="number" id="oldpeak" name="oldpeak" required><br><br>
+
+        <label for="slope">Slope of the Peak Exercise ST Segment (slope):</label><br>
+        <input type="number" id="slope" name="slope" required><br><br>
+
+        <label for="ca">Number of Major Vessels Colored by Fluoroscopy (ca):</label><br>
+        <input type="number" id="ca" name="ca" required><br><br>
+
+        <label for="thal">Thalassemia (thal):</label><br>
+        <input type="number" id="thal" name="thal" required><br><br>
+
+        <label for="target">Heart Disease Diagnosis (target):</label><br>
+        <input type="number" id="target" name="target" required><br><br>
+
+        <input type="submit" value="Submit">
+
+<!--        {% if result %}-->
+<!--            <p>{{ result }}</p>-->
+<!--        {% endif %}-->
+    </form>
+</body>
+</html>
